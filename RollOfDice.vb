@@ -7,7 +7,7 @@
 Option Explicit On
 Option Strict On
 
-Module Module1
+Module RollOfDice
 
     Sub Main()
         Dim outcome(10) As Integer

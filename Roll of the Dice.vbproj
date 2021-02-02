@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{39F9302C-94B6-46DB-9F44-6B8BFD262ADA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Roll_of_the_Dice.Module1</StartupObject>
+    <StartupObject>Roll_of_the_Dice.RollOfDice</StartupObject>
     <RootNamespace>Roll_of_the_Dice</RootNamespace>
     <AssemblyName>Roll of the Dice</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="RollOfDice.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
