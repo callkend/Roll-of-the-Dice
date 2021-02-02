@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Roll of the Dice", "Roll of the Dice.vbproj", "{39F9302C-94B6-46DB-9F44-6B8BFD262ADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F9302C-94B6-46DB-9F44-6B8BFD262ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F9302C-94B6-46DB-9F44-6B8BFD262ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F9302C-94B6-46DB-9F44-6B8BFD262ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F9302C-94B6-46DB-9F44-6B8BFD262ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBF229A6-173F-4226-8516-5663A19B59C8}
+	EndGlobalSection
+EndGlobal
