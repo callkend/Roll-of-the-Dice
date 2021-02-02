@@ -1,4 +1,13 @@
-﻿Module Module1
+﻿'Kendall Callister
+'RCET0265
+'Spring 2021
+'Roll of the Dice
+'https://github.com/callkend/Roll-of-the-Dice.git
+
+Option Explicit On
+Option Strict On
+
+Module Module1
 
     Sub Main()
         Dim outcome(10) As Integer
