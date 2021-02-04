@@ -48,14 +48,14 @@ Module RollOfDice
         Console.WriteLine("Roll of the Dice" + vbNewLine)
         For j = 0 To 20
             If j > 10 Then
-                Console.Write(vbTab + "|" + CStr(outcome(j - 10)))
+                Console.Write("|" + CStr(outcome(j - 10)).PadLeft(5))
             ElseIf j = 10 Then
-                Console.Write(vbTab + "|" + CStr(j + 2) + vbNewLine)
+                Console.Write("|" + CStr(j + 2).PadLeft(5) + vbNewLine)
                 Console.WriteLine("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ " _
-                    + "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _" + vbNewLine)
-                Console.Write(vbTab + "|" + CStr(outcome(j - 10)))
+                    + "_ _ _ _ _ _ _ _ _" + vbNewLine)
+                Console.Write("|" + CStr(outcome(j - 10)).PadLeft(5))
             Else
-                Console.Write(vbTab + "|" + CStr(j + 2))
+                Console.Write("|" + CStr(j + 2).PadLeft(5))
             End If
         Next
 
