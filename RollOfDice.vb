@@ -51,8 +51,7 @@ Module RollOfDice
                 Console.Write("|" + CStr(outcome(j - 10)).PadLeft(5))
             ElseIf j = 10 Then
                 Console.Write("|" + CStr(j + 2).PadLeft(5) + vbNewLine)
-                Console.WriteLine("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ " _
-                    + "_ _ _ _ _ _ _ _ _" + vbNewLine)
+                Console.WriteLine(StrDup(70, "-"))
                 Console.Write("|" + CStr(outcome(j - 10)).PadLeft(5))
             Else
                 Console.Write("|" + CStr(j + 2).PadLeft(5))
