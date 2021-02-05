@@ -14,7 +14,7 @@ Module RollOfDice
         Dim number As Integer
         Randomize()
 
-        'Looks for two random numbers between 1 & 6 and than adds them togther, and stores the
+        'Looks for two random numbers between 1 & 6 and than adds them together, and stores the
         'outcome in a array 1000 times.
         For i = 0 To 999
             number = CInt(6 * Rnd()) + 1 + CInt(6 * Rnd()) + 1
